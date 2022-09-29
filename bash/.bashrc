@@ -26,6 +26,7 @@ fi
 
 # aliases
 alias ls='ls --color=auto'
+alias grep='grep --color=auto'
 
 # path extensions
 export PATH=$PATH:"$HOME/emory-tki/bin"
