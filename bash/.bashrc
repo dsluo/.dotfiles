@@ -11,7 +11,7 @@ export VISUAL=vim
 
 # prompt, or powerline if available
 PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\] \$ '
-if [ -f /usr/share/powerline/bindings/bash/powerline/sh ]
+if [ -f /usr/share/powerline/bindings/bash/powerline.sh ]
 then
 	powerline-daemon -q
 	POWERLINE_BASH_CONTINUATION=1
@@ -27,6 +27,7 @@ fi
 # aliases
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
+alias diff='diff --color=auto'
 
 # path extensions
 export PATH=$PATH:"$HOME/emory-tki/bin"
