@@ -4,7 +4,7 @@ filetype plugin on
 syntax on
 
 " Colors
-colorscheme slate
+colorscheme default
 
 " Looks
 
@@ -55,10 +55,7 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.vim/plugged')
-
-Plug 'metakirby5/codi.vim'
 Plug 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
-
 call plug#end()
 
 " Powerline
