@@ -2,6 +2,10 @@ $include /etc/inputrc
 
 set completion-ignore-case On
 set colored-stats On
+set colored-completion-prefix On
+set visible-stats On
+set mark-symlinked-directories On
+set menu-complete-display-prefix On
 
 #set editing-mode vi
 #set show-mode-in-prompt on
