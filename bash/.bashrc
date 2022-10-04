@@ -30,7 +30,7 @@ alias grep='grep --color=auto'
 alias diff='diff --color=auto'
 
 # path extensions
+export PATH="$HOME/.local/bin":$PATH
 export PATH=$PATH:"$HOME/emory-tki/bin"
-export PATH=$PATH:$HOME/.yarn/bin
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
