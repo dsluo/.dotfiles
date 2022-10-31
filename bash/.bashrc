@@ -29,6 +29,11 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias diff='diff --color=auto'
 
+if command -v bat &> /dev/null
+then
+    alias cat=bat
+fi
+
 # path extensions
 export PATH="$HOME/.local/bin":$PATH
 export PATH=$PATH:"$HOME/emory-tki/bin"
